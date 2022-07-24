@@ -12,6 +12,8 @@ app.get("/square/:num1", function (req,res) {
 })
 app.post("/sayConnect" , function(req ,result)
 {
+
+    
     console.log("data",req.body);
     res.end("post wala server")
 })
