@@ -3,6 +3,7 @@ const app = express();
 // app.get("/sayHello", function (req,res) {
 //     res.end("hello be")
 // })
+app.use(express.json());
 app.get("/sayHello", function (req,res) {
     res.end("hello boss")
 })
